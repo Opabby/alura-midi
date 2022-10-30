@@ -3,7 +3,7 @@ function tocaSom (idElementoAudio) {
     if (elemento != null && elemento.localName === 'audio'){
         elemento.play();
     } else {
-        console.log('Elemento não encontrado');
+        console.log('Elemento não encontrado ou seletor inválido');
     }
 }
 const listaDeTeclas = document.querySelectorAll('.tecla');
